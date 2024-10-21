@@ -1,9 +1,9 @@
-# MLCommons 0.4.1 Benchmarks on Lambda Cloud 1-Click Cluster: Training BERT, Llama2, and Stable Diffusion with 64 GPUs
+# MLCommons v4.1 Benchmarks on Lambda Cloud 1-Click Cluster: Training BERT, Llama2, and Stable Diffusion with 64 GPUs
 
 
 ## TL;DR
 
-* Benchmarked BERT, Llama2 70B LoRA, and Stable Diffusion on a 64xGPU Lambda Cloud [1-Click Cluster](https://lambdalabs.com/service/gpu-cloud/1-click-clusters). Achieving expected MLCommons 0.4.1 model accuracy in just under a minute for BERT, 5 mins for Llama2 70B Lora, and 8 mins for Stable Diffusion.
+* Benchmarked BERT, Llama2 70B LoRA, and Stable Diffusion on a 64xGPU Lambda Cloud [1-Click Cluster](https://lambdalabs.com/service/gpu-cloud/1-click-clusters). Achieving expected MLCommons v4.1 model accuracy in just under a minute for BERT, 5 mins for Llama2 70B Lora, and 8 mins for Stable Diffusion.
 * Results show a ~6x speedup from 8 to 64 GPUs, with performance differences due to hyper-parameter adaptation and diminishing returns with large batch sizes.
 * The benchmarks can be easily reproduced on Lambda Cloud [1-Click Cluster](https://lambdalabs.com/service/gpu-cloud/1-click-clusters), with [step-by-step instructions](./Lambda/benchmarks).
 
